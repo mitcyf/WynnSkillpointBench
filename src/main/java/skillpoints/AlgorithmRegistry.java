@@ -22,6 +22,7 @@ public final class AlgorithmRegistry {
         REGISTRY.put("MySecondAlgorithm",   MySecondAlgorithm::new);
         REGISTRY.put("TheThirdAlgorithm",   TheThirdAlgorithm::new);
         REGISTRY.put("OurSecondAlgorithm",  OurSecondAlgorithm::new);
+        REGISTRY.put("CachingThirdAlgorithm", CachingThirdAlgorithm::new);
     }
 
     /** Create a checker by its registered name. */
